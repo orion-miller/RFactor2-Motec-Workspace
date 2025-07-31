@@ -1,26 +1,28 @@
 <?xml version="1.0"?>
-<Analysis Locale="English_United States.1252" DefaultLocale="C" Version="103" ShowOverlays="1" ExcludeUntrusted="1" IncludeOverlays="0" GraphTimeFormat="4" RemoveOnChanDblClick="1" ProfileId="Circuit" SetupSheetPasswdReqd="0" LapTimeDisplayFormat="0" LapTimeDisplayUnit="mph" LapNameInOut="1" AutoLapNumber="0" LapTrustPC="0" Splitter.PC="6596">
+<Analysis Locale="English_United States.1252" DefaultLocale="C" Version="103" ShowOverlays="1" ExcludeUntrusted="1" IncludeOverlays="0" GraphTimeFormat="4" RemoveOnChanDblClick="1" ProfileId="Circuit" SetupSheetPasswdReqd="0" LapTimeDisplayFormat="0" LapTimeDisplayUnit="mph" LapNameInOut="1" AutoLapNumber="0" LapTrustPC="0" Splitter.PC="5396">
  <Resources/>
  <LatGTrackGen/>
  <DataSelect SelectFastestOnLoad="1" DefaultShowDisabled="0" MainColorSource="1">
   <Explore HRef="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG"/>
   <DataSources TelemetryEnabled="1">
-   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 23-52-33 - Mills Inner Loop A - P1.ld"/>
-   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 00-39-24 - VIR South Course - P1.ld"/>
-   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 23-33-24 - VIR South Course - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-27 - 11-06-53 - Canadian Tire Motorsport Park - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 20-27-29 - Spa-Francorchamps - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 20-40-37 - Laguna Seca - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-23 - 22-38-09 - Mills Inner Loop A - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld"/>
   </DataSources>
   <View Name="Laps" Color="128,240,0" View="Laps">
-   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 23-52-33 - Mills Inner Loop A - P1.ld::::Lap 5"/>
-   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 23-52-33 - Mills Inner Loop A - P1.ld::::Lap 10"/>
-   <Overlay Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 23-52-33 - Mills Inner Loop A - P1.ld::::Lap 11"/>
+   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 8"/>
+   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 7"/>
+   <Overlay Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 6"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings" ColumnWidths="134:53:20:20:20:80:80:80">
-   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2024-10-06 - 23-33-24 - VIR South Course - P1.ld::::11:33:24 PM,  "/>
+   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::10:39:48 PM,  "/>
   </View>
  </DataSelect>
  <ChannelsWindow Method="2"/>
  <CAN/>
- <MoTeC.TrackPos Version="100" Name="TrackPosCtrl.inner" PosPC="0,0,300,300" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="" ShowDataLegend="1" TelemetryZoom="0" ShowSectColors="1" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1" UseLocalColors="0">
+ <MoTeC.TrackPos Version="100" Name="TrackPosCtrl.inner" PosPC="0,0,241,305" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="" ShowDataLegend="1" TelemetryZoom="0" ShowSectColors="1" ShowSectLabels="0" ShowSectMarks="1" LinkCursor="1" UseLocalColors="0">
   <ComponentColorScheme>
    <Entry Name="CptDataBackground">
     <RenderMode Mode="SCREEN" RGB="0,128,0"/>
@@ -72,9 +74,9 @@
   <Key Name="F5" Customised="0" Prompted="1"/>
   <Key Name="F6" Customised="0" Prompted="1"/>
   <Key Name="F7" Customised="0" Prompted="0"/>
-  <Key Name="F8" Customised="0" Prompted="0"/>
+  <Key Name="F8" Customised="0" Prompted="1"/>
  </QuickSelectKeys>
- <Workbooks Version="100" Name="My Workbooks" Active="Tyres">
+ <Workbooks Version="100" Name="My Workbooks" Active="Suspension">
   <Workbook XRef="Workbooks\Samples.i2wkb" Name="Samples"/>
   <Workbook XRef="Workbooks\Driver.i2wkb" Name="Driver"/>
   <Workbook XRef="Workbooks\Engine.i2wkb" Name="Engine"/>
@@ -90,10 +92,10 @@
   <DockWindow Id="Reports" Visible="1" IsDocked="1" IsPinned="1" DockOffset="0" DockSide="35" DockIndex="2" Height="110" Width="220"/>
   <DockWindow Id="Layouts" Visible="1" IsDocked="1" IsPinned="1" DockOffset="0" DockSide="35" DockIndex="3" Height="110" Width="220"/>
   <DockWindow Id="Maths" Visible="1" IsDocked="1" IsPinned="1" DockOffset="0" DockSide="35" DockIndex="4" Height="110" Width="220"/>
-  <DockWindow Id="Track" Visible="0" IsDocked="0" Position="460,323,701,491"/>
+  <DockWindow Id="Track" Visible="1" IsDocked="0" Position="2068,779,2736,1105"/>
  </DockWindows>
  <TelemetrySettings/>
- <DataExport Path="" File="" Selection="0" Rate="0" Flags="0"/>
+ <DataExport Path="C:\Users\orion\Downloads" File="2024-10-06 - 14-58-28 - VIR South Course - P1.csv" Selection="0" Rate="0" Flags="3"/>
  <VideoGenerate VideoView="" Selection="0">
   <OptionItems/>
  </VideoGenerate>

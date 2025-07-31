@@ -13,10 +13,10 @@
   <MathExpression Id="MuX FR" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="max(min('Long Force FR' [N] / 'Tyre Load FR' [N],2.5),-2.5)" SampleRate="0" Unit=""/>
   <MathExpression Id="MuX RL" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="max(min('Long Force RL' [N] / 'Tyre Load RL' [N],2.5),-2.5)" SampleRate="0" Unit=""/>
   <MathExpression Id="MuX RR" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="max(min('Long Force RR' [N] / 'Tyre Load RR' [N],2.5),-2.5)" SampleRate="0" Unit=""/>
-  <MathExpression Id="Mu FL" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="sqrt('MuX FL'*'MuX FL' + 'MuY FL'*'MuY FL')" SampleRate="0" Unit=""/>
-  <MathExpression Id="Mu FR" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="sqrt('MuX FR'*'MuX FR' + 'MuY FR'*'MuY FR')" SampleRate="0" Unit=""/>
-  <MathExpression Id="Mu RL" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="sqrt('MuX RL'*'MuX RL' + 'MuY RL'*'MuY RL')" SampleRate="0" Unit=""/>
-  <MathExpression Id="Mu RR" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="sqrt('MuX RR'*'MuX RR' + 'MuY RR'*'MuY RR')" SampleRate="0" Unit=""/>
+  <MathExpression Id="Mu FL" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="sqrt('MuX FL'*'MuX FL' + 'MuY FL'*'MuY FL')" SampleRate="0" Unit=""/>
+  <MathExpression Id="Mu FR" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="sqrt('MuX FR'*'MuX FR' + 'MuY FR'*'MuY FR')" SampleRate="0" Unit=""/>
+  <MathExpression Id="Mu RL" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="sqrt('MuX RL'*'MuX RL' + 'MuY RL'*'MuY RL')" SampleRate="0" Unit=""/>
+  <MathExpression Id="Mu RR" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="sqrt('MuX RR'*'MuX RR' + 'MuY RR'*'MuY RR')" SampleRate="0" Unit=""/>
   <MathExpression Id="Slip Ratio FL" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="-'Long Patch Vel FL' [m/s]/'Long Ground Vel FL' [m/s] +0.015" SampleRate="0" Unit=""/>
   <MathExpression Id="Slip Ratio FR" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="-'Long Patch Vel FR' [m/s]/'Long Ground Vel FR' [m/s] +0.015" SampleRate="0" Unit=""/>
   <MathExpression Id="Slip Ratio RL" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="-'Long Patch Vel RL' [m/s]/'Long Ground Vel RL' [m/s] +0.015" SampleRate="0" Unit=""/>
@@ -30,9 +30,13 @@
   <MathExpression Active="0" Id="Long Ground Vel RL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RL' [m/s]" SampleRate="0" Unit="m/s"/>
   <MathExpression Active="0" Id="Long Ground Vel RR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RR' [m/s]" SampleRate="0" Unit="m/s"/>
   <MathExpression Id="G Force Long" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="-1*'G Force Long' [G]" SampleRate="0" Unit="G"/>
-  <MathExpression Id="Tyre Wear Rate FL" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear FL' [%])" SampleRate="0" Unit=""/>
-  <MathExpression Id="Tyre Wear Rate FR" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear FR' [%])" SampleRate="0" Unit=""/>
-  <MathExpression Id="Tyre Wear Rate RL" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear RL' [%])" SampleRate="0" Unit=""/>
-  <MathExpression Id="Tyre Wear Rate RR" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear RR' [%])" SampleRate="0" Unit=""/>
+  <MathExpression Id="Tyre Wear Rate FL" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear FL' [%])" SampleRate="0" Unit=""/>
+  <MathExpression Id="Tyre Wear Rate FR" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear FR' [%])" SampleRate="0" Unit=""/>
+  <MathExpression Id="Tyre Wear Rate RL" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear RL' [%])" SampleRate="0" Unit=""/>
+  <MathExpression Id="Tyre Wear Rate RR" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear RR' [%])" SampleRate="0" Unit=""/>
+  <MathExpression Id="Camber FL" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber FL' [rad]" SampleRate="0" Unit="deg"/>
+  <MathExpression Id="Camber FR" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber FR' [rad]" SampleRate="0" Unit="deg"/>
+  <MathExpression Id="Camber RL" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber RL' [rad]" SampleRate="0" Unit="deg"/>
+  <MathExpression Id="Camber RR" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber RR' [rad]" SampleRate="0" Unit="deg"/>
  </MathItems>
 </Maths>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Maths Locale="English_United States.1252" DefaultLocale="C" Id="Suspension">
+ <MathItems>
+  <MathExpression Id="G Force Long" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="-1*'G Force Long' [G]" SampleRate="0" Unit="G"/>
+  <MathExpression Id="G Force Comb" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="sqrt('G Force Long' [G]*'G Force Long' [G] + 'G Force Lat' [G]*'G Force Lat' [G])" SampleRate="0" Unit="G"/>
+  <MathExpression Id="Body Roll Rate" DisplayUnit="deg/s" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative(smooth('Body Roll' [deg], 0.5))" SampleRate="0" Unit="deg/s"/>
+  <MathExpression Id="Body Pitch Rate" DisplayUnit="deg/s" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative(smooth('Body Pitch' [deg], 0.5))" SampleRate="0" Unit="deg/s"/>
+  <MathExpression Id="Front Ride Height" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" EnumerationName="" Script="('Ride Height FL' [mm]+'Ride Height FR' [mm])/2" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="Rear Ride Height" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" EnumerationName="" Script="('Ride Height RL' [mm]+'Ride Height RR' [mm])/2" SampleRate="0" Unit="mm"/>
+ </MathItems>
+</Maths>

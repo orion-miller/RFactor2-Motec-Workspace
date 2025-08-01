@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<Maths Locale="English_United States.1252" DefaultLocale="C" Id="User">
+<Maths Locale="English_United States.1252" DefaultLocale="C" Id="Tires">
+ <MathConstants>
+  <MathConstant Name="PI" Value="3.14159265" Unit=""/>
+ </MathConstants>
  <MathItems>
   <MathExpression Id="Slip Angle FL" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="atan('Lat Ground Vel FL' [m/s]/'Long Ground Vel FL' [m/s]) " SampleRate="0" Unit="rad"/>
   <MathExpression Id="Slip Angle FR" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="atan('Lat Ground Vel FR' [m/s]/'Long Ground Vel FR' [m/s])" SampleRate="0" Unit="rad"/>
@@ -25,18 +28,13 @@
   <MathExpression Id="Long Force FR" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" Script="-1*'Long Force FR' [N]" SampleRate="0" Unit="N"/>
   <MathExpression Id="Long Force RL" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" Script="-1*'Long Force RL' [N]" SampleRate="0" Unit="N"/>
   <MathExpression Id="Long Force RR" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" Script="-1*'Long Force RR' [N]" SampleRate="0" Unit="N"/>
-  <MathExpression Active="0" Id="Long Ground Vel FL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel FL' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Active="0" Id="Long Ground Vel FR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel FR' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Active="0" Id="Long Ground Vel RL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RL' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Active="0" Id="Long Ground Vel RR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RR' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Id="G Force Long" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="-1*'G Force Long' [G]" SampleRate="0" Unit="G"/>
   <MathExpression Id="Tyre Wear Rate FL" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear FL' [%])" SampleRate="0" Unit=""/>
   <MathExpression Id="Tyre Wear Rate FR" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear FR' [%])" SampleRate="0" Unit=""/>
   <MathExpression Id="Tyre Wear Rate RL" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear RL' [%])" SampleRate="0" Unit=""/>
   <MathExpression Id="Tyre Wear Rate RR" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" Script="derivative('Tyre Wear RR' [%])" SampleRate="0" Unit=""/>
-  <MathExpression Id="Camber FL" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber FL' [rad]" SampleRate="0" Unit="deg"/>
-  <MathExpression Id="Camber FR" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber FR' [rad]" SampleRate="0" Unit="deg"/>
-  <MathExpression Id="Camber RL" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber RL' [rad]" SampleRate="0" Unit="deg"/>
-  <MathExpression Id="Camber RR" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="57.3*'Camber RR' [rad]" SampleRate="0" Unit="deg"/>
+  <MathExpression Active="0" Id="Long Ground Vel FL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel FL' [m/s]" SampleRate="0" Unit="m/s"/>
+  <MathExpression Active="0" Id="Long Ground Vel FR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel FR' [m/s]" SampleRate="0" Unit="m/s"/>
+  <MathExpression Active="0" Id="Long Ground Vel RL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RL' [m/s]" SampleRate="0" Unit="m/s"/>
+  <MathExpression Active="0" Id="Long Ground Vel RR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RR' [m/s]" SampleRate="0" Unit="m/s"/>
  </MathItems>
 </Maths>

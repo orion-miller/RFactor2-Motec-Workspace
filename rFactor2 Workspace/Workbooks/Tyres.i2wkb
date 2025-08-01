@@ -203,8 +203,8 @@
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
     </MoTeC.Scatter>
-    <MoTeC.Scatter Version="100" Name="Scatter (2)" PosPC="0,500,500,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Slip Angle RL" ZChannel="Tyre Temp FL Centre" XScaleMode="1" XScaleMin="-10" XScaleMax="10" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="0" LinePointMode="1" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
-     <Trace YChannel="MuY RL" Visible="1" YDelay="0"/>
+    <MoTeC.Scatter Version="100" Name="Scatter (1)" PosPC="500,0,1000,500" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Slip Angle FR" ZChannel="Tyre Temp FL Centre" XScaleMode="1" XScaleMin="-10" XScaleMax="10" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="0" LinePointMode="1" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
+     <Trace YChannel="MuY FR" Visible="1" YDelay="0"/>
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
@@ -220,8 +220,8 @@
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
     </MoTeC.Scatter>
-    <MoTeC.Scatter Version="100" Name="Scatter (1)" PosPC="500,0,1000,500" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Slip Angle FR" ZChannel="Tyre Temp FL Centre" XScaleMode="1" XScaleMin="-10" XScaleMax="10" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="0" LinePointMode="1" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
-     <Trace YChannel="MuY FR" Visible="1" YDelay="0"/>
+    <MoTeC.Scatter Version="100" Name="Scatter (2)" PosPC="0,500,500,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Slip Angle RL" ZChannel="Tyre Temp FL Centre" XScaleMode="1" XScaleMin="-10" XScaleMax="10" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="0" LinePointMode="1" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
+     <Trace YChannel="MuY RL" Visible="1" YDelay="0"/>
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
@@ -263,14 +263,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="0,0,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="0,0,255" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="6,100,255" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="11,188,255" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="17,255,232" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="23,255,151" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="11,188,255" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="17,255,232" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="23,255,151" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="30,255,69" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="72,255,34" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="158,255,40" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="234,255,47" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,200,53" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="234,255,47" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,200,53" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,132,57" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -280,14 +280,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -297,14 +297,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -314,14 +314,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -335,14 +335,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -352,14 +352,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -369,14 +369,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -386,14 +386,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -407,14 +407,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -424,14 +424,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -441,14 +441,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>
@@ -458,14 +458,14 @@
      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="43,255,255" AxisChanColor="255,0,0" Color1="255,244,244" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="45.3257" DataMax="207.782" BandWidth="16.2456" BandCount="10">
       <ColorBand Flags="2" Min="45.3257" Max="45.3257" Color="255,244,244" Visible="1"/>
       <ColorBand Flags="7" Min="45.3257" Max="61.5713" Color="255,227,227" Visible="1"/>
-      <ColorBand Flags="7" Min="61.5713" Max="77.817" Color="255,213,213" Visible="1"/>
-      <ColorBand Flags="7" Min="77.817" Max="94.0626" Color="255,196,196" Visible="1"/>
-      <ColorBand Flags="7" Min="94.0626" Max="110.308" Color="255,179,179" Visible="1"/>
+      <ColorBand Flags="7" Min="61.5713" Max="77.8169" Color="255,213,213" Visible="1"/>
+      <ColorBand Flags="7" Min="77.8169" Max="94.0624" Color="255,196,196" Visible="1"/>
+      <ColorBand Flags="7" Min="94.0624" Max="110.308" Color="255,179,179" Visible="1"/>
       <ColorBand Flags="7" Min="110.308" Max="126.554" Color="255,162,162" Visible="1"/>
       <ColorBand Flags="7" Min="126.554" Max="142.799" Color="255,147,147" Visible="1"/>
       <ColorBand Flags="7" Min="142.799" Max="159.045" Color="255,130,130" Visible="1"/>
-      <ColorBand Flags="7" Min="159.045" Max="175.291" Color="255,113,113" Visible="1"/>
-      <ColorBand Flags="7" Min="175.291" Max="191.536" Color="255,96,96" Visible="1"/>
+      <ColorBand Flags="7" Min="159.045" Max="175.29" Color="255,113,113" Visible="1"/>
+      <ColorBand Flags="7" Min="175.29" Max="191.536" Color="255,96,96" Visible="1"/>
       <ColorBand Flags="15" Min="191.536" Max="207.782" Color="255,81,81" Visible="1"/>
       <ColorBand Flags="1" Min="207.782" Max="207.782" Color="255,64,64" Visible="1"/>
      </EvenWidthBandAxis>

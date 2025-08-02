@@ -51,7 +51,7 @@
         <Line Index="2" Enabled="0" Value="0" Color="248,0,0"/>
        </Lines>
        <Traces ActiveTrace="G Force Lat">
-        <Trace Id="G Force Lat" DisplayUnit="G" DisplayDPS="6" Visible="1"/>
+        <Trace Id="G Force Lat" DisplayUnit="G" DisplayDPS="2" Visible="1"/>
        </Traces>
       </Graph>
       <Graph Name="Group 3" ScaleMode="2" ScaleMin="0" ScaleMax="1">
@@ -74,7 +74,7 @@
      <ColorBandGroup/>
     </MoTeC.Bar>
     <MoTeC.Bar Version="100" Name="Copy (1) of Copy (1) of Bar [2]" Caption="G Force Lat" PosPC="790,760,1000,860" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-2" MaximumValue="2" Style="1,0,0" OriginStyle="4,0,0" CustomOrigin="0" ColorBanding="1" ColorBandLines="1" ColorBandLinesMode="0">
-     <GaugeData Id="G Force Lat" DisplayUnit="G" DisplayDPS="6" Visible="1"/>
+     <GaugeData Id="G Force Lat" DisplayUnit="G" DisplayDPS="2" Visible="1"/>
      <ColorBandGroup/>
     </MoTeC.Bar>
     <MoTeC.Bar Version="100" Name="Copy (1) of Copy (1) of Bar [3]" Caption="G Force Long" PosPC="710,760,790,1000" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-1.5" MaximumValue="1.5" Style="2,0,0" OriginStyle="4,0,0" CustomOrigin="0" ColorBanding="1" ColorBandLines="1" ColorBandLinesMode="0">
@@ -341,7 +341,7 @@
     <MoTeC.TimeDistance Version="100" Name="Time/Distance [1]" PosPC="0,0,1000,857" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="2" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" TOD.Show="0" TOD.Format.Time="%X" TOD.Format.Date="%d %b %Y" TOD.UTC="UTC Time" TOD.Offset.Type="0" TOD.Offset.Mins="0" TOD.TZ.Show="0" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1">
      <Graphs ActivateChild="Group 6">
       <Graph Name="Group 1" ScaleMode="2" ScaleMin="0" ScaleMax="1">
-       <Edges Mode="0" TopEdge="0" BottomEdge="180"/>
+       <Edges Mode="0" TopEdge="0" BottomEdge="158"/>
        <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
        <Lines>
         <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
@@ -353,7 +353,7 @@
        </Traces>
       </Graph>
       <Graph Name="Group 2" ScaleMode="2" ScaleMin="0" ScaleMax="1">
-       <Edges Mode="0" TopEdge="180" BottomEdge="333"/>
+       <Edges Mode="0" TopEdge="158" BottomEdge="333"/>
        <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
        <Lines>
         <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>

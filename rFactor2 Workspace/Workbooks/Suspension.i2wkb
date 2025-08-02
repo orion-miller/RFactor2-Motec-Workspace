@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Workbook Locale="English_United States.1252" DefaultLocale="C" Version="200" Name="Suspension" Profile="Circuit" Active="Worksheets">
- <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Susp Positions">
+ <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Steering">
   <Worksheet Version="200" Name="Susp Positions" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
    <Controls Active="Time/Distance [1]">
     <MoTeC.TimeDistance Version="100" Name="Time/Distance [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="0" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" TOD.Show="0" TOD.Format.Time="%X" TOD.Format.Date="%d %b %Y" TOD.UTC="UTC Time" TOD.Offset.Type="0" TOD.Offset.Mins="0" TOD.TZ.Show="0" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1">
@@ -42,7 +42,7 @@
   </Worksheet>
   <Worksheet Version="200" Name="Susp Histo" LinkTo="Laps" LockByGPSTime="0">
    <Controls Active="Suspension Histogram [1]">
-    <MoTeC.SuspensionHistogram Version="100" Name="Suspension Histogram [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="2" SecondChannel="" XScaleMode="1" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="40" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="5" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1" SuspVersion="1" BumpPositive="1" MaxSpeed_in="10" MaxSpeed_mm="200" BinWidth_in="0.5" BinWidth_mm="10" HiLoSpeed_in="1" HiLoSpeed_mm="10">
+    <MoTeC.SuspensionHistogram Version="100" Name="Suspension Histogram [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="2" SecondChannel="" XScaleMode="1" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="80" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="5" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1" SuspVersion="1" BumpPositive="1" MaxSpeed_in="10" MaxSpeed_mm="200" BinWidth_in="0.5" BinWidth_mm="10" HiLoSpeed_in="1" HiLoSpeed_mm="10">
      <HistoTrace Id="Damper Vel FL" Visible="1"/>
      <HistoTrace Id="Damper Vel FR" Visible="1"/>
      <HistoTrace Id="Damper Vel RL" Visible="1"/>
@@ -100,7 +100,7 @@
   </Worksheet>
   <Worksheet Version="200" Name="Susp FFT" LinkTo="Laps" LockByGPSTime="0">
    <Controls Active="FFT [1]">
-    <MoTeC.FFT Version="100" Name="FFT [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="2" XAutoScale="1" YAutoScale="1" XLogScale="1" YScaleMode="0" XScaleMin="0.1" XScaleMax="50" YScaleMin="0" YScaleMax="10" WindowType="1" ChunkSize="1024" SmoothFactor="0.01" CursorStyle="1">
+    <MoTeC.FFT Version="100" Name="FFT [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="2" XAutoScale="1" YAutoScale="1" XLogScale="1" YScaleMode="0" XScaleMin="0.1" XScaleMax="50" YScaleMin="0" YScaleMax="25" WindowType="1" ChunkSize="1024" SmoothFactor="0.01" CursorStyle="1">
      <FFTTrace ChanId="Susp Pos FL" Visible="1"/>
      <FFTTrace ChanId="Susp Pos FR" Visible="1"/>
      <FFTTrace ChanId="Susp Pos RL" Visible="1"/>

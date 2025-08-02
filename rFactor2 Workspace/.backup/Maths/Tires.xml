@@ -36,5 +36,7 @@
   <MathExpression Active="0" Id="Long Ground Vel FR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel FR' [m/s]" SampleRate="0" Unit="m/s"/>
   <MathExpression Active="0" Id="Long Ground Vel RL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RL' [m/s]" SampleRate="0" Unit="m/s"/>
   <MathExpression Active="0" Id="Long Ground Vel RR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="-1*'Long Ground Vel RR' [m/s]" SampleRate="0" Unit="m/s"/>
+  <MathExpression Id="Tire Load % Front" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="('Tyre Load FL' [N]+'Tyre Load FR' [N])/('Tyre Load FL' [N]+'Tyre Load FR' [N]+'Tyre Load RL' [N]+'Tyre Load RR' [N])*100" SampleRate="0" Unit="%"/>
+  <MathExpression Id="Tire Load % Right" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="('Tyre Load FR' [N]+'Tyre Load RR' [N])/('Tyre Load FL' [N]+'Tyre Load FR' [N]+'Tyre Load RL' [N]+'Tyre Load RR' [N])*100" SampleRate="0" Unit="%"/>
  </MathItems>
 </Maths>

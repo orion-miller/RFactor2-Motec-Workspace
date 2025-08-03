@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Workbook Locale="English_United States.1252" DefaultLocale="C" Version="200" Name="Notes" Profile="Circuit" Active="Worksheets">
+ <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Notes">
+  <Worksheet Version="200" Name="Notes" LinkTo="Laps" LockByGPSTime="0">
+   <Controls Active="Notes">
+    <MoTeC.Note Version="100" Name="Notes" PosPC="0,0,1000,1000" ShowCaption="1" AutoCaption="0" ContentEncoding="z.base64" ShowEditTools="0">
+<![CDATA[eJzlVk1v2kAQfedK+Q+rVOopQJTeUhIpQGlQm5K6VFWPBBawCnZkTNpI+fF989YUW0B6IpfKsnd2dj7fzCwc4RWaaKGPDn7gkvStvl1yPmMAhyVyPGIOjwscU/IKbXzEB0SU+EaZDmrk9PGJb4RzarzGaek5pr0BZohpyeEXUmT4SfoeQ4xo1RUnd1iRmtOb45vy+8C9p4btvSJY8M2p/0jehGtKjuPala1cth3OUMcbJLRoXt6hJ5vBy4KSMc/yYvUYkzuURJO5OUaakTtRtjPyc9pYMq8Gnyl1cnJXtF2nR/PfkNeY34RILJSDxZrxJKpEdsbzG1KWzYj09y0sDKuX9tmkzhX9nqjWXhUxf144GM4B1YXWUK9E3Lp0151yqZ11z5F66hB9VPVXrvHhfd8y43tWYa5uCdg7fifqH8PfEc8Z6UR9NVe/xZLKt/r/jmvK1bH/PO16yo0lYXbPn0W2pTgtgy+Mvk+J91s53jDHiBn2aKFGqkf6mpKW2yn9/aaM+Y4ZzYWmLiuhFzKK2XuJTm0e8gNgWiO3Q80bRjQnttMCr7ri7qn7Yvlw6vxE+ykls1IVToSrIWz4ryVz3Q+hCqGfA9ZL5WxzX+6fauUcfZj2SnPodDLWTWP6qWJde1/+cw5eEs1BkemIPjPdql6YTpW93RkP6rW6ZONiokN+jWLSh5r9dGc/DwuNRHeKIz7lqQi36eSvnfVUmNZ+nGzd1dNrBK/xlnRbuAfLXxVZ+D0w7SCxmf0urRlGLVXKVyq9j36q7BxtGM5lXqT8Dn/TREX0bVoaah6eizMq7PQ1E1Zp/1/dy7u8VePZ+N4nu/n/8wfh8GeP]]>
+    </MoTeC.Note>
+   </Controls>
+  </Worksheet>
+ </Worksheets>
+</Workbook>

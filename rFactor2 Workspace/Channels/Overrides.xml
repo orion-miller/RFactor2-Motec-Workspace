@@ -2,37 +2,145 @@
 <Overrides Locale="English_United States.1252" DefaultLocale="C">
  <Override Id="Air Temp Inlet" DisplayMax="332.149993999999992" DisplayMin="272.149993999999992" AutoScale="0"/>
  <Override Id="Bat Volts ADL" DisplayMax="15.000000000000000" DisplayMin="10.000000000000000" AutoScale="0"/>
- <Override Id="Body Pitch" DisplayUnit="deg"/>
- <Override Id="Body Roll" DisplayUnit="deg"/>
+ <Override Id="Body Pitch" DisplayUnit="deg" DisplayColorIndex="5"/>
+ <Override Id="Body Roll" DisplayUnit="deg" DisplayColorIndex="2"/>
  <Override Id="Brake Pos" DisplayColorIndex="0"/>
- <Override Id="Camber FL" DisplayUnit="deg"/>
- <Override Id="Camber FR" DisplayUnit="deg"/>
- <Override Id="Camber RL" DisplayUnit="deg"/>
- <Override Id="Camber RR" DisplayUnit="deg"/>
- <Override Id="Corr Speed" DisplayMax="69.444444444444443" DisplayMin="0.000000000000000" AutoScale="1" DisplayColorIndex="0"/>
+ <Override Id="Brake Pressure FL" DisplayColorIndex="4"/>
+ <Override Id="Brake Pressure FR" DisplayColorIndex="0"/>
+ <Override Id="Brake Pressure RL" DisplayColorIndex="3"/>
+ <Override Id="Brake Pressure RR" DisplayColorIndex="1"/>
+ <Override Id="Brake Temp FL" DisplayColorIndex="4"/>
+ <Override Id="Brake Temp FR" DisplayColorIndex="0"/>
+ <Override Id="Brake Temp RL" DisplayColorIndex="3"/>
+ <Override Id="Brake Temp RR" DisplayColorIndex="1"/>
+ <Override Id="Camber FL" DisplayUnit="deg" DisplayColorIndex="4"/>
+ <Override Id="Camber FR" DisplayUnit="deg" DisplayColorIndex="0"/>
+ <Override Id="Camber RL" DisplayUnit="deg" DisplayColorIndex="3"/>
+ <Override Id="Camber RR" DisplayUnit="deg" DisplayColorIndex="1"/>
+ <Override Id="Corr Speed" DisplayMax="69.444444444444443" DisplayMin="0.000000000000000" AutoScale="1" DisplayColorIndex="8"/>
+ <Override Id="Damper Vel FL" DisplayColorIndex="4"/>
+ <Override Id="Damper Vel FR" DisplayColorIndex="0"/>
+ <Override Id="Damper Vel RL" DisplayColorIndex="3"/>
+ <Override Id="Damper Vel RR" DisplayColorIndex="1"/>
  <Override Id="Eng Oil Pres" DisplayMax="600000.000000000000000" DisplayMin="0.000000000000000" AutoScale="0"/>
  <Override Id="Eng Oil Temp" DisplayMax="382.149993999999992" DisplayMin="272.149993999999992" AutoScale="0"/>
- <Override Id="Engine RPM" DisplayMax="1151.917306317912562" DisplayMin="0.000000000000000" AutoScale="0"/>
+ <Override Id="Engine RPM" DisplayMax="1151.917306317912562" DisplayMin="0.000000000000000" DisplayColorIndex="9" AutoScale="0"/>
  <Override Id="Engine Temp" DisplayMax="382.149993999999992" DisplayMin="272.149993999999992" AutoScale="0"/>
  <Override Id="Fuel Pres" DisplayMax="600000.000000000000000" DisplayMin="0.000000000000000" AutoScale="0"/>
  <Override Id="G Force Lat" DisplayMax="19.613303999999999" DisplayMin="-19.613303999999999" AutoScale="0"/>
  <Override Id="G Force Long" DisplayMax="14.709978000000000" DisplayMin="-14.709978000000000" AutoScale="1"/>
+ <Override Id="Grip Fract FL" DisplayColorIndex="4"/>
+ <Override Id="Grip Fract FR" DisplayColorIndex="0"/>
+ <Override Id="Grip Fract RL" DisplayColorIndex="3"/>
+ <Override Id="Grip Fract RR" DisplayColorIndex="1"/>
  <Override Id="L/D Ratio" AutoScale="0" DisplayMin="0.000000000000000" DisplayMax="5.000000000000000"/>
  <Override Id="Lambda 1" DisplayMax="1.100000000000000" DisplayMin="0.800000000000000" AutoScale="0"/>
  <Override Id="Lambda 2" DisplayMax="1.100000000000000" DisplayMin="0.800000000000000" AutoScale="0"/>
+ <Override Id="Lat Force FL" DisplayColorIndex="4"/>
+ <Override Id="Lat Force FR" DisplayColorIndex="0"/>
+ <Override Id="Lat Force RL" DisplayColorIndex="3"/>
+ <Override Id="Lat Force RR" DisplayColorIndex="1"/>
+ <Override Id="Lat Ground Vel FL" DisplayColorIndex="4"/>
+ <Override Id="Lat Ground Vel FR" DisplayColorIndex="0"/>
+ <Override Id="Lat Ground Vel RL" DisplayColorIndex="3"/>
+ <Override Id="Lat Ground Vel RR" DisplayColorIndex="1"/>
+ <Override Id="Lat Patch Vel FL" DisplayColorIndex="4"/>
+ <Override Id="Lat Patch Vel FR" DisplayColorIndex="0"/>
+ <Override Id="Lat Patch Vel RL" DisplayColorIndex="3"/>
+ <Override Id="Lat Patch Vel RR" DisplayColorIndex="1"/>
+ <Override Id="Long Force FL" DisplayColorIndex="4"/>
+ <Override Id="Long Force FR" DisplayColorIndex="0"/>
+ <Override Id="Long Force RL" DisplayColorIndex="3"/>
+ <Override Id="Long Force RR" DisplayColorIndex="1"/>
+ <Override Id="Long Ground Vel FL" DisplayColorIndex="4"/>
+ <Override Id="Long Ground Vel FR" DisplayColorIndex="0"/>
+ <Override Id="Long Ground Vel RL" DisplayColorIndex="3"/>
+ <Override Id="Long Ground Vel RR" DisplayColorIndex="1"/>
+ <Override Id="Long Patch Vel FL" DisplayColorIndex="4"/>
+ <Override Id="Long Patch Vel FR" DisplayColorIndex="0"/>
+ <Override Id="Long Patch Vel RL" DisplayColorIndex="3"/>
+ <Override Id="Long Patch Vel RR" DisplayColorIndex="1"/>
  <Override Id="Manifold Pres" DisplayMax="249999.984375000000000" DisplayMin="0.000000000000000" AutoScale="0"/>
+ <Override Id="Mu FL" DisplayColorIndex="4"/>
+ <Override Id="Mu RL" DisplayColorIndex="3"/>
  <Override Id="MuY FR" DisplayColorIndex="0"/>
  <Override Id="Oversteer" DisplayMax="0.104720000000000" DisplayMin="-0.104720000000000" AutoScale="0"/>
+ <Override Id="Ride Height FL" DisplayColorIndex="4"/>
+ <Override Id="Ride Height FR" DisplayColorIndex="0"/>
+ <Override Id="Ride Height RL" DisplayColorIndex="3"/>
+ <Override Id="Ride Height RR" DisplayColorIndex="1"/>
  <Override Id="Steered Angle" DisplayMax="0.174533000000000" DisplayMin="-0.174533000000000" AutoScale="0"/>
  <Override Id="Steering Wheel Position" DisplayColorIndex="0"/>
+ <Override Id="Surface Type FL" DisplayColorIndex="4"/>
+ <Override Id="Surface Type FR" DisplayColorIndex="0"/>
+ <Override Id="Surface Type RL" DisplayColorIndex="3"/>
+ <Override Id="Surface Type RR" DisplayColorIndex="1"/>
+ <Override Id="Susp Force FL" DisplayColorIndex="4"/>
+ <Override Id="Susp Force FR" DisplayColorIndex="0"/>
+ <Override Id="Susp Force RL" DisplayColorIndex="3"/>
+ <Override Id="Susp Force RR" DisplayColorIndex="1"/>
+ <Override Id="Susp Pos FL" DisplayColorIndex="4"/>
+ <Override Id="Susp Pos FR" DisplayColorIndex="0"/>
+ <Override Id="Susp Pos RL" DisplayColorIndex="3"/>
+ <Override Id="Susp Pos RR" DisplayColorIndex="1"/>
+ <Override Id="Terrain Idx FL" DisplayColorIndex="4"/>
+ <Override Id="Terrain Idx FR" DisplayColorIndex="0"/>
+ <Override Id="Terrain Idx RL" DisplayColorIndex="3"/>
+ <Override Id="Terrain Idx RR" DisplayColorIndex="1"/>
  <Override Id="Throttle Pos" DisplayMax="1.000000000000000" DisplayMin="0.000000000000000" AutoScale="0" DisplayColorIndex="0"/>
- <Override Id="Toe FL" DisplayUnit="deg"/>
- <Override Id="Toe FR" DisplayUnit="deg"/>
- <Override Id="Toe RL" DisplayUnit="deg"/>
- <Override Id="Toe RR" DisplayUnit="deg"/>
- <Override Id="Tyre Temp FL Centre" DisplayColorIndex="3"/>
- <Override Id="Tyre Temp FL Inner" DisplayColorIndex="5"/>
- <Override Id="Tyre Temp FL Outer" DisplayColorIndex="7"/>
- <Override Id="Tyre Temp FR Inner" DisplayColorIndex="6"/>
- <Override Id="Tyre Temp FR Outer" DisplayColorIndex="1"/>
+ <Override Id="Toe FL" DisplayUnit="deg" DisplayColorIndex="4"/>
+ <Override Id="Toe FR" DisplayUnit="deg" DisplayColorIndex="0"/>
+ <Override Id="Toe RL" DisplayUnit="deg" DisplayColorIndex="3"/>
+ <Override Id="Toe RR" DisplayUnit="deg" DisplayColorIndex="1"/>
+ <Override Id="Track Edge" DisplayColorIndex="7"/>
+ <Override Id="Track Temperature" DisplayColorIndex="5"/>
+ <Override Id="Tyre Carcass Temp FL" DisplayColorIndex="4"/>
+ <Override Id="Tyre Carcass Temp FR" DisplayColorIndex="0"/>
+ <Override Id="Tyre Carcass Temp RL" DisplayColorIndex="3"/>
+ <Override Id="Tyre Carcass Temp RR" DisplayColorIndex="1"/>
+ <Override Id="Tyre Flat FL" DisplayColorIndex="4"/>
+ <Override Id="Tyre Flat FR" DisplayColorIndex="0"/>
+ <Override Id="Tyre Flat RL" DisplayColorIndex="3"/>
+ <Override Id="Tyre Flat RR" DisplayColorIndex="1"/>
+ <Override Id="Tyre Load FL" DisplayColorIndex="4"/>
+ <Override Id="Tyre Load FR" DisplayColorIndex="0"/>
+ <Override Id="Tyre Load RL" DisplayColorIndex="3"/>
+ <Override Id="Tyre Load RR" DisplayColorIndex="1"/>
+ <Override Id="Tyre Pressure FL" DisplayColorIndex="4"/>
+ <Override Id="Tyre Pressure FR" DisplayColorIndex="0"/>
+ <Override Id="Tyre Pressure RL" DisplayColorIndex="3"/>
+ <Override Id="Tyre Pressure RR" DisplayColorIndex="1"/>
+ <Override Id="Tyre Rubber Temp FL C" DisplayColorIndex="4"/>
+ <Override Id="Tyre Rubber Temp FL I" DisplayColorIndex="4"/>
+ <Override Id="Tyre Temp FL Centre" DisplayColorIndex="8"/>
+ <Override Id="Tyre Temp FL Inner" DisplayColorIndex="4"/>
+ <Override Id="Tyre Temp FL Outer" DisplayColorIndex="0"/>
+ <Override Id="Tyre Temp FR Avg" DisplayColorIndex="0"/>
+ <Override Id="Tyre Temp FR Centre" DisplayColorIndex="8"/>
+ <Override Id="Tyre Temp FR Inner" DisplayColorIndex="4"/>
+ <Override Id="Tyre Temp FR Outer" DisplayColorIndex="0"/>
+ <Override Id="Tyre Temp RL Avg" DisplayColorIndex="3"/>
+ <Override Id="Tyre Temp RL Centre" DisplayColorIndex="8"/>
+ <Override Id="Tyre Temp RL Inner" DisplayColorIndex="4"/>
+ <Override Id="Tyre Temp RL Outer" DisplayColorIndex="0"/>
+ <Override Id="Tyre Temp RR Avg" DisplayColorIndex="1"/>
+ <Override Id="Tyre Temp RR Centre" DisplayColorIndex="8"/>
+ <Override Id="Tyre Temp RR Inner" DisplayColorIndex="4"/>
+ <Override Id="Tyre Temp RR Outer" DisplayColorIndex="0"/>
+ <Override Id="Vertical Tyre Deflection FL" DisplayColorIndex="4"/>
+ <Override Id="Vertical Tyre Deflection FR" DisplayColorIndex="0"/>
+ <Override Id="Vertical Tyre Deflection RL" DisplayColorIndex="3"/>
+ <Override Id="Vertical Tyre Deflection RR" DisplayColorIndex="1"/>
+ <Override Id="Wheel Detached FL" DisplayColorIndex="4"/>
+ <Override Id="Wheel Detached FR" DisplayColorIndex="0"/>
+ <Override Id="Wheel Detached RL" DisplayColorIndex="3"/>
+ <Override Id="Wheel Detached RR" DisplayColorIndex="1"/>
+ <Override Id="Wheel Rot Speed FL" DisplayColorIndex="4"/>
+ <Override Id="Wheel Rot Speed FR" DisplayColorIndex="0"/>
+ <Override Id="Wheel Rot Speed RL" DisplayColorIndex="3"/>
+ <Override Id="Wheel Rot Speed RR" DisplayColorIndex="1"/>
+ <Override Id="Wheel Y Location FL" DisplayColorIndex="4"/>
+ <Override Id="Wheel Y Location FR" DisplayColorIndex="0"/>
+ <Override Id="Wheel Y Location RL" DisplayColorIndex="3"/>
+ <Override Id="Wheel Y Location RR" DisplayColorIndex="1"/>
 </Overrides>

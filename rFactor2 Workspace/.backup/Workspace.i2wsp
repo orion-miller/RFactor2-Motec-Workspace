@@ -5,12 +5,20 @@
  <DataSelect SelectFastestOnLoad="1" DefaultShowDisabled="0" MainColorSource="1">
   <Explore HRef="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG"/>
   <DataSources TelemetryEnabled="1">
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-01-15 - 00-13-57 - Laguna Seca - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-06-21 - 12-46-59 - Canadian Tire Motorsport Park - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-19 - 10-26-35 - Matsusaka West Circuit - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-19 - 10-37-24 - Matsusaka East Circuit - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-23 - 22-22-49 - Matsusaka East Circuit - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-23 - 22-26-47 - Matsusaka East Circuit - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-23 - 22-44-53 - Laguna Seca - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-27 - 10-48-43 - World Wide Technology Raceway - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-27 - 11-06-53 - Canadian Tire Motorsport Park - P1.ld"/>
    <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 23-00-11 - Montreal GP - P1.ld"/>
    <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld"/>
   </DataSources>
   <View Name="Laps" Color="128,240,0" View="Laps">
-   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 8"/>
-   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 5"/>
+   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 7"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings" ColumnWidths="134:53:20:20:20:80:80:80">
    <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::10:39:48 PM,  "/>
@@ -72,13 +80,14 @@
   <Key Name="F7" Customised="0" Prompted="0"/>
   <Key Name="F8" Customised="0" Prompted="1"/>
  </QuickSelectKeys>
- <Workbooks Version="100" Name="My Workbooks" Active="Vehicle">
+ <Workbooks Version="100" Name="My Workbooks" Active="Tyres">
   <Workbook XRef="Workbooks\Driver.i2wkb" Name="Driver"/>
   <Workbook XRef="Workbooks\Vehicle.i2wkb" Name="Vehicle"/>
   <Workbook XRef="Workbooks\Suspension.i2wkb" Name="Suspension"/>
   <Workbook XRef="Workbooks\Tyres.i2wkb" Name="Tyres"/>
   <Workbook XRef="Workbooks\Brakes.i2wkb" Name="Brakes"/>
   <Workbook XRef="Workbooks\Engine.i2wkb" Name="Engine"/>
+  <Workbook XRef="Workbooks\Notes.i2wkb" Name="Notes"/>
  </Workbooks>
  <DockWindows>
   <DockWindow Id="Alarms" Visible="0" IsDocked="1" IsPinned="1" DockOffset="0.25" DockSide="0" DockIndex="0" Height="160" Width="220"/>

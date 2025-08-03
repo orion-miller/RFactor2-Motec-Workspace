@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <Maths Locale="English_United States.1252" DefaultLocale="C" Id="Suspension">
+ <MathConstants>
+  <MathConstant Name="PI" Value="3.14159" Unit=""/>
+ </MathConstants>
  <MathItems>
   <MathExpression Id="G Force Long" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="-1*'G Force Long' [G]" SampleRate="0" Unit="G"/>
   <MathExpression Id="G Force Comb" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" Script="sqrt('G Force Long' [G]*'G Force Long' [G] + 'G Force Lat' [G]*'G Force Lat' [G])" SampleRate="0" Unit="G"/>

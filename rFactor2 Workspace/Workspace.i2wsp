@@ -2,7 +2,7 @@
 <Analysis Locale="English_United States.1252" DefaultLocale="C" Version="103" ShowOverlays="1" ExcludeUntrusted="1" IncludeOverlays="0" GraphTimeFormat="4" RemoveOnChanDblClick="1" ProfileId="Circuit" SetupSheetPasswdReqd="0" LapTimeDisplayFormat="0" LapTimeDisplayUnit="mph" LapNameInOut="1" AutoLapNumber="0" LapTrustPC="0" Splitter.PC="3780">
  <Resources/>
  <LatGTrackGen/>
- <DataSelect SelectFastestOnLoad="1" DefaultShowDisabled="0" MainColorSource="0">
+ <DataSelect SelectFastestOnLoad="1" DefaultShowDisabled="0" MainColorSource="1">
   <Explore HRef="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG"/>
   <DataSources TelemetryEnabled="1">
    <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 23-00-11 - Montreal GP - P1.ld"/>
@@ -11,7 +11,6 @@
   <View Name="Laps" Color="128,240,0" View="Laps">
    <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 8"/>
    <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 5"/>
-   <Overlay Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 1"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings" ColumnWidths="134:53:20:20:20:80:80:80">
    <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::10:39:48 PM,  "/>

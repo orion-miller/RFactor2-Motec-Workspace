@@ -72,7 +72,7 @@
   <Key Name="F7" Customised="0" Prompted="0"/>
   <Key Name="F8" Customised="0" Prompted="1"/>
  </QuickSelectKeys>
- <Workbooks Version="100" Name="My Workbooks" Active="Tyres">
+ <Workbooks Version="100" Name="My Workbooks" Active="Vehicle">
   <Workbook XRef="Workbooks\Driver.i2wkb" Name="Driver"/>
   <Workbook XRef="Workbooks\Vehicle.i2wkb" Name="Vehicle"/>
   <Workbook XRef="Workbooks\Suspension.i2wkb" Name="Suspension"/>

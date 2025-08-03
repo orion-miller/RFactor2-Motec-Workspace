@@ -9,7 +9,9 @@
    <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld"/>
   </DataSources>
   <View Name="Laps" Color="128,240,0" View="Laps">
-   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 23-00-11 - Montreal GP - P1.ld::::Lap 2"/>
+   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 8"/>
+   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 5"/>
+   <Overlay Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::Lap 1"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings" ColumnWidths="134:53:20:20:20:80:80:80">
    <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-07-28 - 22-39-48 - Mills Inner Loop A - P1.ld::::10:39:48 PM,  "/>
@@ -71,7 +73,7 @@
   <Key Name="F7" Customised="0" Prompted="0"/>
   <Key Name="F8" Customised="0" Prompted="1"/>
  </QuickSelectKeys>
- <Workbooks Version="100" Name="My Workbooks" Active="Vehicle">
+ <Workbooks Version="100" Name="My Workbooks" Active="Tyres">
   <Workbook XRef="Workbooks\Driver.i2wkb" Name="Driver"/>
   <Workbook XRef="Workbooks\Vehicle.i2wkb" Name="Vehicle"/>
   <Workbook XRef="Workbooks\Suspension.i2wkb" Name="Suspension"/>

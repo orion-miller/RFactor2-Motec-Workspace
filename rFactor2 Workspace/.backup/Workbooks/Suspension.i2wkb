@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Workbook Locale="English_United States.1252" DefaultLocale="C" Version="200" Name="Suspension" Profile="Circuit" Active="Worksheets">
- <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Alignment">
+ <Worksheets Version="100" Name="Worksheets" PosPC="0,0,1000,1000" Active="Springs">
   <Worksheet Version="200" Name="Springs" LinkTo="Laps" DataDomain="1" LockByGPSTime="0">
    <Controls Active="Time/Distance [1]">
     <MoTeC.TimeDistance Version="100" Name="Time/Distance [1]" PosPC="0,0,530,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="1" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" TOD.Show="0" TOD.Format.Time="%X" TOD.Format.Date="%d %b %Y" TOD.UTC="UTC Time" TOD.Offset.Type="0" TOD.Offset.Mins="0" TOD.TZ.Show="0" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1">
@@ -58,7 +58,7 @@
     </MoTeC.TimeDistance>
     <MoTeC.Scatter Version="100" Name="Scatter (3)" Caption="Wheel Rate RR" PosPC="765,500,1000,1000" ShowCaption="1" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Ride Height RR" ZChannel="" XScaleMode="0" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="1" LinePointMode="2" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
      <Trace YChannel="Tyre Load RR" Visible="1" YDelay="0"/>
-     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="210,210,210" AxisChanColor="255,160,32" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
+     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,128,255" AxisChanColor="0,128,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
       <ColorBand Flags="2" Min="-1" Max="-1" Color="64,64,255" Visible="1"/>
       <ColorBand Flags="7" Min="-1" Max="-0.8" Color="64,136,255" Visible="1"/>
       <ColorBand Flags="7" Min="-0.8" Max="-0.6" Color="64,203,255" Visible="1"/>
@@ -75,7 +75,7 @@
     </MoTeC.Scatter>
     <MoTeC.Scatter Version="100" Name="Scatter (2)" Caption="Wheel Rate RL" PosPC="530,500,765,1000" ShowCaption="1" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Ride Height RL" ZChannel="" XScaleMode="0" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="1" LinePointMode="2" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
      <Trace YChannel="Tyre Load RL" Visible="1" YDelay="0"/>
-     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="210,210,210" AxisChanColor="43,255,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
+     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,128,255" AxisChanColor="0,128,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
       <ColorBand Flags="2" Min="-1" Max="-1" Color="64,64,255" Visible="1"/>
       <ColorBand Flags="7" Min="-1" Max="-0.8" Color="64,136,255" Visible="1"/>
       <ColorBand Flags="7" Min="-0.8" Max="-0.6" Color="64,203,255" Visible="1"/>
@@ -92,7 +92,7 @@
     </MoTeC.Scatter>
     <MoTeC.Scatter Version="100" Name="Scatter (1)" Caption="Wheel Rate FR" PosPC="765,0,1000,500" ShowCaption="1" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Ride Height FR" ZChannel="" XScaleMode="0" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="1" LinePointMode="2" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
      <Trace YChannel="Tyre Load FR" Visible="1" YDelay="0"/>
-     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="210,210,210" AxisChanColor="255,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
+     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,128,255" AxisChanColor="0,128,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
       <ColorBand Flags="2" Min="-1" Max="-1" Color="64,64,255" Visible="1"/>
       <ColorBand Flags="7" Min="-1" Max="-0.8" Color="64,136,255" Visible="1"/>
       <ColorBand Flags="7" Min="-0.8" Max="-0.6" Color="64,203,255" Visible="1"/>
@@ -109,7 +109,7 @@
     </MoTeC.Scatter>
     <MoTeC.Scatter Version="100" Name="Scatter" Caption="Wheel Rate FL" PosPC="530,0,765,500" ShowCaption="1" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="1" XChannel="Ride Height FL" ZChannel="" XScaleMode="0" YScaleMode="0" ZScaleMode="0" ShowPoints="1" ShowDensity="0" DensityBins="50" DensityFillColorMode="1" DensityFillColor1="64,64,255" DensityFillColor2="255,64,64" IntervalStat="0" IntervalStat.BinWidth="100" ShowGridLines="1" ShowGradient="0" ShowColorBinSamples="1" Style="2" Size="1" ShowLines="0" ShowRegEquation="1" LinePointMode="2" CursorStyle="3" RegressionType="0" RegressionParam="0" RegressionZero="0" RegressionDigits="3">
      <Trace YChannel="Tyre Load FL" Visible="1" YDelay="0"/>
-     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="210,210,210" AxisChanColor="47,151,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
+     <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,128,255" AxisChanColor="0,128,255" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="-1" DataMax="1" BandWidth="0.2" BandCount="10">
       <ColorBand Flags="2" Min="-1" Max="-1" Color="64,64,255" Visible="1"/>
       <ColorBand Flags="7" Min="-1" Max="-0.8" Color="64,136,255" Visible="1"/>
       <ColorBand Flags="7" Min="-0.8" Max="-0.6" Color="64,203,255" Visible="1"/>
@@ -181,7 +181,7 @@
      </Graphs>
      <Cursor Version="1" Style="1" Snap="1"/>
     </MoTeC.TimeDistance>
-    <MoTeC.SuspensionHistogram Version="100" Name="Suspension Histogram [1]" PosPC="486,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="2" SecondChannel="" XScaleMode="1" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="40" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="5" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1" SuspVersion="1" BumpPositive="1" MaxSpeed_in="10" MaxSpeed_mm="200" BinWidth_in="0.5" BinWidth_mm="10" HiLoSpeed_in="1" HiLoSpeed_mm="10">
+    <MoTeC.SuspensionHistogram Version="100" Name="Suspension Histogram [1]" PosPC="486,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="2" SecondChannel="" XScaleMode="1" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="50" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="5" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1" SuspVersion="1" BumpPositive="1" MaxSpeed_in="10" MaxSpeed_mm="200" BinWidth_in="0.5" BinWidth_mm="10" HiLoSpeed_in="1" HiLoSpeed_mm="10">
      <HistoTrace Id="Damper Vel FL" Visible="1"/>
      <HistoTrace Id="Damper Vel FR" Visible="1"/>
      <HistoTrace Id="Damper Vel RL" Visible="1"/>
@@ -239,7 +239,7 @@
   </Worksheet>
   <Worksheet Version="200" Name="Susp FFT" LinkTo="Laps" LockByGPSTime="0">
    <Controls Active="FFT [1]">
-    <MoTeC.FFT Version="100" Name="FFT [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="2" XAutoScale="1" YAutoScale="1" XLogScale="1" YScaleMode="0" XScaleMin="0.1" XScaleMax="50" YScaleMin="0" YScaleMax="11" WindowType="1" ChunkSize="1024" SmoothFactor="0.01" CursorStyle="1">
+    <MoTeC.FFT Version="100" Name="FFT [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="0" TileAutoCols="1" TileCols="2" XAutoScale="1" YAutoScale="1" XLogScale="1" YScaleMode="0" XScaleMin="0.1" XScaleMax="50" YScaleMin="0" YScaleMax="20" WindowType="1" ChunkSize="1024" SmoothFactor="0.01" CursorStyle="1">
      <FFTTrace ChanId="Susp Pos FL" Visible="1"/>
      <FFTTrace ChanId="Susp Pos FR" Visible="1"/>
      <FFTTrace ChanId="Susp Pos RL" Visible="1"/>

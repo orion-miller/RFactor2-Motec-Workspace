@@ -9,7 +9,7 @@
   </DataSources>
   <View Name="Laps" Color="128,240,0" View="Laps">
    <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::Lap 9"/>
-   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::Lap 6"/>
+   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::Lap 8"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings" ColumnWidths="134:53:20:20:20:80:80:80">
    <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::4:34:45 PM,  "/>
@@ -71,7 +71,7 @@
   <Key Name="F7" Customised="0" Prompted="0"/>
   <Key Name="F8" Customised="0" Prompted="1"/>
  </QuickSelectKeys>
- <Workbooks Version="100" Name="My Workbooks" Active="Vehicle">
+ <Workbooks Version="100" Name="My Workbooks" Active="Tyres">
   <Workbook XRef="Workbooks\Driver.i2wkb" Name="Driver"/>
   <Workbook XRef="Workbooks\Vehicle.i2wkb" Name="Vehicle"/>
   <Workbook XRef="Workbooks\Suspension.i2wkb" Name="Suspension"/>

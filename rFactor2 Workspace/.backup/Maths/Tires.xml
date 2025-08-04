@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Maths Locale="English_United States.1252" DefaultLocale="C" Id="Tires">
  <MathConstants>
-  <MathConstant Name="SR Offset FL" Value="1.5" Unit="%"/>
-  <MathConstant Name="SR Offset FR" Value="1.5" Unit="%"/>
-  <MathConstant Name="SR Offset RL" Value="1.5" Unit="%"/>
-  <MathConstant Name="SR Offset RR" Value="1.5" Unit="%"/>
+  <MathConstant Name="SR Offset FL" Value="-0.25" Unit="%"/>
+  <MathConstant Name="SR Offset FR" Value="-0.25" Unit="%"/>
+  <MathConstant Name="SR Offset RL" Value="2" Unit="%"/>
+  <MathConstant Name="SR Offset RR" Value="2" Unit="%"/>
  </MathConstants>
  <MathItems>
   <MathExpression Id="Slip Angle FL" DisplayUnit="deg" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="atan('Lat Ground Vel FL' [m/s]/'Long Ground Vel FL' [m/s]) " SampleRate="0" Unit="rad"/>
@@ -35,10 +35,6 @@
   <MathExpression Id="Tyre Wear Rate FR" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear FR' [%])" SampleRate="0" Unit=""/>
   <MathExpression Id="Tyre Wear Rate RL" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear RL' [%])" SampleRate="0" Unit=""/>
   <MathExpression Id="Tyre Wear Rate RR" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="derivative('Tyre Wear RR' [%])" SampleRate="0" Unit=""/>
-  <MathExpression Active="0" Id="Long Ground Vel FL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="-1*'Long Ground Vel FL' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Active="0" Id="Long Ground Vel FR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="-1*'Long Ground Vel FR' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Active="0" Id="Long Ground Vel RL" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" EnumerationName="" Script="-1*'Long Ground Vel RL' [m/s]" SampleRate="0" Unit="m/s"/>
-  <MathExpression Active="0" Id="Long Ground Vel RR" DisplayUnit="m/s" DisplayDPS="2" DisplayColorIndex="1" Interpolate="1" EnumerationName="" Script="-1*'Long Ground Vel RR' [m/s]" SampleRate="0" Unit="m/s"/>
   <MathExpression Id="Tire Load % Front" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="('Tyre Load FL' [N]+'Tyre Load FR' [N])/('Tyre Load FL' [N]+'Tyre Load FR' [N]+'Tyre Load RL' [N]+'Tyre Load RR' [N])*100" SampleRate="0" Unit="%"/>
   <MathExpression Id="Tire Load % Right" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="0" Interpolate="1" EnumerationName="" Script="('Tyre Load FR' [N]+'Tyre Load RR' [N])/('Tyre Load FL' [N]+'Tyre Load FR' [N]+'Tyre Load RL' [N]+'Tyre Load RR' [N])*100" SampleRate="0" Unit="%"/>
   <MathExpression Id="Tyre Temp FL Avg" DisplayUnit="C" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="('Tyre Temp FL Centre' [C]+'Tyre Temp FL Inner' [C]+'Tyre Temp FL Outer' [C])/3" SampleRate="0" Unit="C"/>

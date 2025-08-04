@@ -6,7 +6,7 @@
     <MoTeC.TimeDistance Version="100" Name="Copy (1) of Copy (1) of Time/Distance [1]" PosPC="0,0,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" TraceLineWidth="2" TracePointSize="3" TraceStyle="0" LinkCursor="1" LinkDatum="1" ShowKeyValues="1" ShowKeyStats="1" KeyMode="0" KeyPos="1" ShowGridLines="1" ShowXAxis="1" ShowXAxisScrollBar="0" ShowYAxis="1" ShowYAxisScrollBar="1" ShowMarkers="1" ShowVSP="0" ShowDeviveEvents="1" ShowBands="1" TOD.Show="0" TOD.Format.Time="%X" TOD.Format.Date="%d %b %Y" TOD.UTC="UTC Time" TOD.Offset.Type="0" TOD.Offset.Mins="0" TOD.TZ.Show="0" BandGroup="Outings:Laps:Track Sections:Default" BandMode="1" OverlapMode="0" VariancePos="0.25" VarianceAutoScale="1">
      <Graphs ActivateChild="Group 1">
       <Graph Name="Group 1" ScaleMode="2" ScaleMin="0" ScaleMax="1">
-       <Edges Mode="0" TopEdge="0" BottomEdge="131"/>
+       <Edges Mode="0" TopEdge="0" BottomEdge="128"/>
        <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
        <Lines>
         <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
@@ -18,7 +18,7 @@
        </Traces>
       </Graph>
       <Graph Name="Group 4" ScaleMode="2" ScaleMin="0" ScaleMax="1">
-       <Edges Mode="0" TopEdge="131" BottomEdge="272"/>
+       <Edges Mode="0" TopEdge="128" BottomEdge="272"/>
        <Edges Mode="1" TopEdge="0" BottomEdge="1000"/>
        <Lines>
         <Line Index="0" Enabled="1" Value="0" Color="210,210,210"/>
@@ -95,7 +95,11 @@
    </Controls>
   </Worksheet>
   <Worksheet Version="200" Name="Track Report" LinkTo="Laps" LockByGPSTime="0">
-   <Controls Active="Track Report [1]">
+   <Controls Active="Copy (1) of Wheel [1]">
+    <MoTeC.Wheel Version="100" Name="Copy (1) of Wheel [1]" Caption="Steering Filtered" PosPC="775,240,1000,480" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-25.061" MaximumValue="30.926" WheelColor="64,255,64" WheelColorEnabled="0" ColorBanding="0" InversePolarity="1">
+     <GaugeData Id="Steering Filtered" DisplayUnit="%" DisplayDPS="7" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Wheel>
     <MoTeC.TrackReport Version="100" Name="Track Report [1]" PosPC="0,0,775,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectColors="1" ShowSectLabels="1" ShowSectMarks="1" LinkCursor="1">
      <TrackMapWindow>
       <SizeScheme>
@@ -167,10 +171,6 @@
      <GaugeData Id="Gear" DisplayUnit="" DisplayDPS="0" Visible="1"/>
      <ColorBandGroup/>
     </MoTeC.NumericGauge>
-    <MoTeC.Wheel Version="100" Name="Copy (1) of Wheel [1]" Caption="Steered Angle" PosPC="775,240,1000,480" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-10" MaximumValue="10" WheelColor="255,144,0" WheelColorEnabled="0" ColorBanding="0" InversePolarity="1">
-     <GaugeData Id="Steered Angle" DisplayUnit="" DisplayDPS="0" Visible="1"/>
-     <ColorBandGroup/>
-    </MoTeC.Wheel>
     <MoTeC.Dial Version="100" Name="Copy (1) of Copy (1) of Dial [1]" Caption="Engine RPM" PosPC="888,0,1000,240" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="0" MaximumValue="8000" IndicatorColor="255,0,0" OverrideColor="0" IndicatorColorBands="0" IndicatorStyle="0" DialColorBands="1" ColorBandStyle="2" MajorDivisions="8" ScaleExponent="3">
      <GaugeData Id="Engine RPM" DisplayUnit="rpm" DisplayDPS="5" Visible="1"/>
      <ColorBandGroup>

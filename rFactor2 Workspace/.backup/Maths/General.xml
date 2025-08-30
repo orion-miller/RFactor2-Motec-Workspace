@@ -4,19 +4,19 @@
   <MathConstant Name="PI" Value="3.14159" Unit=""/>
  </MathConstants>
  <MathItems>
-  <MathExpression Id="G Force Long" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" EnumerationName="" Script="smooth(-1*'G Force Long' [G],0.25)" SampleRate="0" Unit="G"/>
-  <MathExpression Id="G Force Comb" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" EnumerationName="" Script="sqrt('G Force Long' [G]*'G Force Long' [G] + 'G Force Lat' [G]*'G Force Lat' [G])" SampleRate="0" Unit="G"/>
-  <MathExpression Id="Body Roll Rate" DisplayUnit="deg/s" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" EnumerationName="" Script="derivative(smooth('Body Roll' [deg], 0.5))" SampleRate="0" Unit="deg/s"/>
-  <MathExpression Id="Body Pitch Rate" DisplayUnit="deg/s" DisplayDPS="2" DisplayColorIndex="5" Interpolate="1" EnumerationName="" Script="derivative(smooth('Body Pitch' [deg], 0.5))" SampleRate="0" Unit="deg/s"/>
-  <MathExpression Id="Front Ride Height" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="('Ride Height FL' [mm]+'Ride Height FR' [mm])/2" SampleRate="0" Unit="mm"/>
-  <MathExpression Id="Rear Ride Height" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" EnumerationName="" Script="('Ride Height RL' [mm]+'Ride Height RR' [mm])/2" SampleRate="0" Unit="mm"/>
-  <MathExpression Id="G Force Lat" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="5" Interpolate="1" EnumerationName="" Script="smooth(-1*'G Force Lat' [G],0.25)" SampleRate="0" Unit="G"/>
-  <MathExpression Id="Total Downforce" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" EnumerationName="" Script="'Front Downforce' [N]+'Rear Downforce' [N]" SampleRate="0" Unit="N"/>
-  <MathExpression Id="L/D Ratio" DisplayUnit="ratio" DisplayDPS="2" DisplayColorIndex="6" Interpolate="1" EnumerationName="" Script="smooth(abs('Total Downforce' [N]/'Drag' [N]),0.5)" SampleRate="0" Unit="ratio"/>
-  <MathExpression Id="Brake Bias Front" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="100-'Brake Bias Rear' [%]" SampleRate="0" Unit="%"/>
-  <MathExpression Id="LLT Front" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" EnumerationName="" Script="smooth('Tyre Load FL' [N]-'Tyre Load FR' [N],0.5)" SampleRate="0" Unit="N"/>
-  <MathExpression Id="LLT Rear" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" EnumerationName="" Script="smooth('Tyre Load RL' [N]-'Tyre Load RR' [N],0.5)" SampleRate="0" Unit="N"/>
-  <MathExpression Id="LLT Total" DisplayUnit="" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" EnumerationName="" Script="abs('LLT Front' [N] + 'LLT Rear' [N])" SampleRate="0" Unit=""/>
-  <MathExpression Id="LLT Dist Front" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="6" Interpolate="1" EnumerationName="" Script="min(abs('LLT Front' [N] / 'LLT Total'),1)" SampleRate="0" Unit="ratio"/>
+  <MathExpression Id="G Force Long" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" Script="smooth(-1*'G Force Long' [G],0.25)" SampleRate="0" Unit="G"/>
+  <MathExpression Id="G Force Comb" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" Script="sqrt('G Force Long' [G]*'G Force Long' [G] + 'G Force Lat' [G]*'G Force Lat' [G])" SampleRate="0" Unit="G"/>
+  <MathExpression Id="Body Roll Rate" DisplayUnit="deg/s" DisplayDPS="2" DisplayColorIndex="2" Interpolate="1" Script="derivative(smooth('Body Roll' [deg], 0.5))" SampleRate="0" Unit="deg/s"/>
+  <MathExpression Id="Body Pitch Rate" DisplayUnit="deg/s" DisplayDPS="2" DisplayColorIndex="5" Interpolate="1" Script="derivative(smooth('Body Pitch' [deg], 0.5))" SampleRate="0" Unit="deg/s"/>
+  <MathExpression Id="Front Ride Height" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="('Ride Height FL' [mm]+'Ride Height FR' [mm])/2" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="Rear Ride Height" DisplayUnit="mm" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="('Ride Height RL' [mm]+'Ride Height RR' [mm])/2" SampleRate="0" Unit="mm"/>
+  <MathExpression Id="G Force Lat" DisplayUnit="G" DisplayDPS="2" DisplayColorIndex="5" Interpolate="1" Script="smooth(-1*'G Force Lat' [G],0.25)" SampleRate="0" Unit="G"/>
+  <MathExpression Id="Total Downforce" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" Script="'Front Downforce' [N]+'Rear Downforce' [N]" SampleRate="0" Unit="N"/>
+  <MathExpression Id="L/D Ratio" DisplayUnit="ratio" DisplayDPS="2" DisplayColorIndex="6" Interpolate="1" Script="smooth(abs('Total Downforce' [N]/'Drag' [N]),0.5)" SampleRate="0" Unit="ratio"/>
+  <MathExpression Id="Brake Bias Front" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="100-'Brake Bias Rear' [%]" SampleRate="0" Unit="%"/>
+  <MathExpression Id="LLT Front" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="4" Interpolate="1" Script="smooth('Tyre Load FL' [N]-'Tyre Load FR' [N],0.5)" SampleRate="0" Unit="N"/>
+  <MathExpression Id="LLT Rear" DisplayUnit="N" DisplayDPS="2" DisplayColorIndex="3" Interpolate="1" Script="smooth('Tyre Load RL' [N]-'Tyre Load RR' [N],0.5)" SampleRate="0" Unit="N"/>
+  <MathExpression Id="LLT Total" DisplayDPS="2" DisplayColorIndex="7" Interpolate="1" Script="abs('LLT Front' [N] + 'LLT Rear' [N])" SampleRate="0" Unit=""/>
+  <MathExpression Id="LLT Dist Front" DisplayUnit="%" DisplayDPS="2" DisplayColorIndex="6" Interpolate="1" Script="min(abs('LLT Front' [N] / 'LLT Total'),1)" SampleRate="0" Unit="ratio"/>
  </MathItems>
 </Maths>

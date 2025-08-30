@@ -95,11 +95,7 @@
    </Controls>
   </Worksheet>
   <Worksheet Version="200" Name="Track Report" LinkTo="Laps" LockByGPSTime="0">
-   <Controls Active="Copy (1) of Wheel [1]">
-    <MoTeC.Wheel Version="100" Name="Copy (1) of Wheel [1]" Caption="Steering Filtered" PosPC="775,240,1000,480" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-25.061" MaximumValue="30.926" WheelColor="64,255,64" WheelColorEnabled="0" ColorBanding="0" InversePolarity="1">
-     <GaugeData Id="Steering Filtered" DisplayUnit="%" DisplayDPS="7" Visible="1"/>
-     <ColorBandGroup/>
-    </MoTeC.Wheel>
+   <Controls Active="Track Report [1]">
     <MoTeC.TrackReport Version="100" Name="Track Report [1]" PosPC="0,0,775,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ShowSectColors="1" ShowSectLabels="1" ShowSectMarks="1" LinkCursor="1">
      <TrackMapWindow>
       <SizeScheme>
@@ -144,6 +140,10 @@
      <NoteChannel ID="Gear" Enabled="1" FormulaClass="1" FormulaName="Delta" SectionType=""/>
      <NoteChannel ID="Engine RPM" Enabled="0" FormulaClass="0" FormulaName="rngmaths.float.max" SectionType=""/>
     </MoTeC.TrackReport>
+    <MoTeC.Wheel Version="100" Name="Copy (1) of Wheel [1]" Caption="Steering Filtered" PosPC="775,240,1000,480" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-25.061" MaximumValue="30.926" WheelColor="64,255,64" WheelColorEnabled="0" ColorBanding="0" InversePolarity="1">
+     <GaugeData Id="Steering Filtered" DisplayUnit="%" DisplayDPS="7" Visible="1"/>
+     <ColorBandGroup/>
+    </MoTeC.Wheel>
     <MoTeC.Bar Version="100" Name="Copy (1) of Copy (1) of Bar [2]" Caption="G Force Lat" PosPC="775,740,1000,860" ShowCaption="1" AutoCaption="1" UseDefaultFont="1" ScaleMode="0" MinimumValue="-2" MaximumValue="2" Style="1,0,0" OriginStyle="4,0,0" CustomOrigin="0" ColorBanding="1" ColorBandLines="1" ColorBandLinesMode="0">
      <GaugeData Id="G Force Lat" DisplayUnit="G" DisplayDPS="2" Visible="1"/>
      <ColorBandGroup/>

@@ -5,14 +5,13 @@
  <DataSelect SelectFastestOnLoad="1" DefaultShowDisabled="0" MainColorSource="1">
   <Explore HRef="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG"/>
   <DataSources TelemetryEnabled="1">
-   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld"/>
+   <LoggedDataSource Name="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-29 - 00-59-10 - SCR Martinsville Speedway (AI_League Ready) - P1.ld"/>
   </DataSources>
   <View Name="Laps" Color="128,240,0" View="Laps">
-   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::Lap 9"/>
-   <Ref Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::Lap 8"/>
+   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-29 - 00-59-10 - SCR Martinsville Speedway (AI_League Ready) - P1.ld::::Lap 4"/>
   </View>
   <View Name="Outings" Color="240,128,0" View="Outings" ColumnWidths="134:53:20:20:20:80:80:80">
-   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-03 - 16-34-45 - Matsusaka East Circuit - P1.ld::::4:34:45 PM,  "/>
+   <Main Range.Id="D:\Games\SteamLibrary\steamapps\common\rFactor 2\LOG\2025-08-29 - 00-59-10 - SCR Martinsville Speedway (AI_League Ready) - P1.ld::::12:59:10 AM,  "/>
   </View>
  </DataSelect>
  <ChannelsWindow Method="2"/>

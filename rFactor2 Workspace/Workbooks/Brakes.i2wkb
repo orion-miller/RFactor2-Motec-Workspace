@@ -123,8 +123,8 @@
       <EvenWidthBandAxis PaletteMode="0" GradientMode="0" BandChanColor="43,255,255" AxisChanColor="43,255,255" Color1="255,32,224" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="0" Continuous="0" BandMode="1" DataMin="184.852" DataMax="408.671" BandWidth="37.3032" BandCount="6">
        <ColorBand Flags="7" Min="184.852" Max="222.155" Color="213,255,255" Visible="1"/>
        <ColorBand Flags="7" Min="222.155" Max="259.458" Color="145,255,255" Visible="1"/>
-       <ColorBand Flags="7" Min="259.458" Max="296.762" Color="77,255,255" Visible="1"/>
-       <ColorBand Flags="7" Min="296.762" Max="334.065" Color="9,255,255" Visible="1"/>
+       <ColorBand Flags="7" Min="259.458" Max="296.761" Color="77,255,255" Visible="1"/>
+       <ColorBand Flags="7" Min="296.761" Max="334.065" Color="9,255,255" Visible="1"/>
        <ColorBand Flags="7" Min="334.065" Max="371.368" Color="0,196,196" Visible="1"/>
        <ColorBand Flags="15" Min="371.368" Max="408.671" Color="0,128,128" Visible="1"/>
       </EvenWidthBandAxis>
@@ -139,34 +139,34 @@
       </SizeScheme>
      </TrackMapWindow>
      <ContourChannel ID="Brake Temp FL" Enabled="1" ScaleMode="0" UnitsMode="0">
-      <EvenWidthBandAxis PaletteMode="0" GradientMode="0" BandChanColor="47,151,255" AxisChanColor="47,151,255" Color1="255,0,0" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="0" Continuous="0" BandMode="1" DataMin="232.75" DataMax="500.223" BandWidth="44.579" BandCount="6">
+      <EvenWidthBandAxis PaletteMode="0" GradientMode="0" BandChanColor="47,151,255" AxisChanColor="47,151,255" Color1="255,0,0" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="0" LessMinBand="0" Continuous="0" BandMode="1" DataMin="232.75" DataMax="500.223" BandWidth="44.5788" BandCount="6">
        <ColorBand Flags="7" Min="232.75" Max="277.329" Color="213,234,255" Visible="1"/>
        <ColorBand Flags="7" Min="277.329" Max="321.908" Color="145,200,255" Visible="1"/>
-       <ColorBand Flags="7" Min="321.908" Max="366.487" Color="77,166,255" Visible="1"/>
-       <ColorBand Flags="7" Min="366.487" Max="411.066" Color="9,132,255" Visible="1"/>
-       <ColorBand Flags="7" Min="411.066" Max="455.645" Color="0,98,196" Visible="1"/>
-       <ColorBand Flags="15" Min="455.645" Max="500.223" Color="0,64,128" Visible="1"/>
+       <ColorBand Flags="7" Min="321.908" Max="366.486" Color="77,166,255" Visible="1"/>
+       <ColorBand Flags="7" Min="366.486" Max="411.065" Color="9,132,255" Visible="1"/>
+       <ColorBand Flags="7" Min="411.065" Max="455.644" Color="0,98,196" Visible="1"/>
+       <ColorBand Flags="15" Min="455.644" Max="500.223" Color="0,64,128" Visible="1"/>
       </EvenWidthBandAxis>
      </ContourChannel>
     </MoTeC.RainbowTrack>
     <MoTeC.Histogram Version="100" Name="Histogram (1)" PosPC="388,0,694,500" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="1" SecondChannel="" XScaleMode="0" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="10" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="-1" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1">
      <HistoTrace Id="Brake Temp FL" Visible="1"/>
      <HistoMainBins>
-      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="232.75" DataMax="500.223" BandWidth="5.34948" BandCount="50">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="232.75" DataMax="500.223" BandWidth="5.34946" BandCount="50">
        <ColorBand Flags="2" Min="232.75" Max="232.75" Color="64,64,255" Visible="1"/>
        <ColorBand Flags="7" Min="232.75" Max="238.099" Color="64,79,255" Visible="1"/>
        <ColorBand Flags="7" Min="238.099" Max="243.449" Color="64,92,255" Visible="1"/>
        <ColorBand Flags="7" Min="243.449" Max="248.798" Color="64,107,255" Visible="1"/>
        <ColorBand Flags="7" Min="248.798" Max="254.148" Color="64,126,255" Visible="1"/>
        <ColorBand Flags="7" Min="254.148" Max="259.497" Color="64,140,255" Visible="1"/>
-       <ColorBand Flags="7" Min="259.497" Max="264.846" Color="64,155,255" Visible="1"/>
-       <ColorBand Flags="7" Min="264.846" Max="270.196" Color="64,169,255" Visible="1"/>
-       <ColorBand Flags="7" Min="270.196" Max="275.545" Color="64,184,255" Visible="1"/>
-       <ColorBand Flags="7" Min="275.545" Max="280.895" Color="64,198,255" Visible="1"/>
-       <ColorBand Flags="7" Min="280.895" Max="286.244" Color="64,213,255" Visible="1"/>
-       <ColorBand Flags="7" Min="286.244" Max="291.594" Color="64,232,255" Visible="1"/>
-       <ColorBand Flags="7" Min="291.594" Max="296.943" Color="64,245,255" Visible="1"/>
-       <ColorBand Flags="7" Min="296.943" Max="302.293" Color="64,255,251" Visible="1"/>
+       <ColorBand Flags="7" Min="259.497" Max="264.847" Color="64,155,255" Visible="1"/>
+       <ColorBand Flags="7" Min="264.847" Max="270.196" Color="64,169,255" Visible="1"/>
+       <ColorBand Flags="7" Min="270.196" Max="275.546" Color="64,184,255" Visible="1"/>
+       <ColorBand Flags="7" Min="275.546" Max="280.895" Color="64,198,255" Visible="1"/>
+       <ColorBand Flags="7" Min="280.895" Max="286.245" Color="64,213,255" Visible="1"/>
+       <ColorBand Flags="7" Min="286.245" Max="291.594" Color="64,232,255" Visible="1"/>
+       <ColorBand Flags="7" Min="291.594" Max="296.944" Color="64,245,255" Visible="1"/>
+       <ColorBand Flags="7" Min="296.944" Max="302.293" Color="64,255,251" Visible="1"/>
        <ColorBand Flags="7" Min="302.293" Max="307.642" Color="64,255,236" Visible="1"/>
        <ColorBand Flags="7" Min="307.642" Max="312.992" Color="64,255,222" Visible="1"/>
        <ColorBand Flags="7" Min="312.992" Max="318.341" Color="64,255,207" Visible="1"/>
@@ -178,10 +178,10 @@
        <ColorBand Flags="7" Min="345.089" Max="350.438" Color="64,255,117" Visible="1"/>
        <ColorBand Flags="7" Min="350.438" Max="355.788" Color="64,255,102" Visible="1"/>
        <ColorBand Flags="7" Min="355.788" Max="361.137" Color="64,255,88" Visible="1"/>
-       <ColorBand Flags="7" Min="361.137" Max="366.487" Color="64,255,73" Visible="1"/>
-       <ColorBand Flags="7" Min="366.487" Max="371.836" Color="73,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="371.836" Max="377.186" Color="88,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="377.186" Max="382.535" Color="102,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="361.137" Max="366.486" Color="64,255,73" Visible="1"/>
+       <ColorBand Flags="7" Min="366.486" Max="371.836" Color="73,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="371.836" Max="377.185" Color="88,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="377.185" Max="382.535" Color="102,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="382.535" Max="387.884" Color="117,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="387.884" Max="393.234" Color="131,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="393.234" Max="398.583" Color="146,255,64" Visible="1"/>
@@ -191,18 +191,18 @@
        <ColorBand Flags="7" Min="414.632" Max="419.981" Color="207,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="419.981" Max="425.331" Color="222,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="425.331" Max="430.68" Color="236,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="430.68" Max="436.03" Color="251,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="436.03" Max="441.379" Color="255,245,64" Visible="1"/>
-       <ColorBand Flags="7" Min="441.379" Max="446.729" Color="255,232,64" Visible="1"/>
-       <ColorBand Flags="7" Min="446.729" Max="452.078" Color="255,213,64" Visible="1"/>
-       <ColorBand Flags="7" Min="452.078" Max="457.428" Color="255,198,64" Visible="1"/>
-       <ColorBand Flags="7" Min="457.428" Max="462.777" Color="255,184,64" Visible="1"/>
-       <ColorBand Flags="7" Min="462.777" Max="468.127" Color="255,169,64" Visible="1"/>
-       <ColorBand Flags="7" Min="468.127" Max="473.476" Color="255,155,64" Visible="1"/>
-       <ColorBand Flags="7" Min="473.476" Max="478.826" Color="255,140,64" Visible="1"/>
-       <ColorBand Flags="7" Min="478.826" Max="484.175" Color="255,126,64" Visible="1"/>
-       <ColorBand Flags="7" Min="484.175" Max="489.525" Color="255,107,64" Visible="1"/>
-       <ColorBand Flags="7" Min="489.525" Max="494.874" Color="255,92,64" Visible="1"/>
+       <ColorBand Flags="7" Min="430.68" Max="436.029" Color="251,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="436.029" Max="441.379" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="441.379" Max="446.728" Color="255,232,64" Visible="1"/>
+       <ColorBand Flags="7" Min="446.728" Max="452.078" Color="255,213,64" Visible="1"/>
+       <ColorBand Flags="7" Min="452.078" Max="457.427" Color="255,198,64" Visible="1"/>
+       <ColorBand Flags="7" Min="457.427" Max="462.777" Color="255,184,64" Visible="1"/>
+       <ColorBand Flags="7" Min="462.777" Max="468.126" Color="255,169,64" Visible="1"/>
+       <ColorBand Flags="7" Min="468.126" Max="473.476" Color="255,155,64" Visible="1"/>
+       <ColorBand Flags="7" Min="473.476" Max="478.825" Color="255,140,64" Visible="1"/>
+       <ColorBand Flags="7" Min="478.825" Max="484.175" Color="255,126,64" Visible="1"/>
+       <ColorBand Flags="7" Min="484.175" Max="489.524" Color="255,107,64" Visible="1"/>
+       <ColorBand Flags="7" Min="489.524" Max="494.874" Color="255,92,64" Visible="1"/>
        <ColorBand Flags="15" Min="494.874" Max="500.223" Color="255,79,64" Visible="1"/>
        <ColorBand Flags="1" Min="500.223" Max="500.223" Color="255,64,64" Visible="1"/>
       </EvenWidthBandAxis>
@@ -214,13 +214,13 @@
     <MoTeC.Histogram Version="100" Name="Histogram (2)" PosPC="388,500,694,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="1" SecondChannel="" XScaleMode="0" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="10" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="-1" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1">
      <HistoTrace Id="Brake Temp RL" Visible="1"/>
      <HistoMainBins>
-      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="184.852" DataMax="408.671" BandWidth="4.47639" BandCount="50">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="184.852" DataMax="408.671" BandWidth="4.47638" BandCount="50">
        <ColorBand Flags="2" Min="184.852" Max="184.852" Color="64,64,255" Visible="1"/>
        <ColorBand Flags="7" Min="184.852" Max="189.328" Color="64,79,255" Visible="1"/>
        <ColorBand Flags="7" Min="189.328" Max="193.805" Color="64,92,255" Visible="1"/>
        <ColorBand Flags="7" Min="193.805" Max="198.281" Color="64,107,255" Visible="1"/>
-       <ColorBand Flags="7" Min="198.281" Max="202.757" Color="64,126,255" Visible="1"/>
-       <ColorBand Flags="7" Min="202.757" Max="207.234" Color="64,140,255" Visible="1"/>
+       <ColorBand Flags="7" Min="198.281" Max="202.758" Color="64,126,255" Visible="1"/>
+       <ColorBand Flags="7" Min="202.758" Max="207.234" Color="64,140,255" Visible="1"/>
        <ColorBand Flags="7" Min="207.234" Max="211.71" Color="64,155,255" Visible="1"/>
        <ColorBand Flags="7" Min="211.71" Max="216.187" Color="64,169,255" Visible="1"/>
        <ColorBand Flags="7" Min="216.187" Max="220.663" Color="64,184,255" Visible="1"/>
@@ -232,8 +232,8 @@
        <ColorBand Flags="7" Min="243.045" Max="247.521" Color="64,255,236" Visible="1"/>
        <ColorBand Flags="7" Min="247.521" Max="251.998" Color="64,255,222" Visible="1"/>
        <ColorBand Flags="7" Min="251.998" Max="256.474" Color="64,255,207" Visible="1"/>
-       <ColorBand Flags="7" Min="256.474" Max="260.951" Color="64,255,193" Visible="1"/>
-       <ColorBand Flags="7" Min="260.951" Max="265.427" Color="64,255,179" Visible="1"/>
+       <ColorBand Flags="7" Min="256.474" Max="260.95" Color="64,255,193" Visible="1"/>
+       <ColorBand Flags="7" Min="260.95" Max="265.427" Color="64,255,179" Visible="1"/>
        <ColorBand Flags="7" Min="265.427" Max="269.903" Color="64,255,159" Visible="1"/>
        <ColorBand Flags="7" Min="269.903" Max="274.38" Color="64,255,146" Visible="1"/>
        <ColorBand Flags="7" Min="274.38" Max="278.856" Color="64,255,131" Visible="1"/>
@@ -245,26 +245,26 @@
        <ColorBand Flags="7" Min="301.238" Max="305.714" Color="88,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="305.714" Max="310.191" Color="102,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="310.191" Max="314.667" Color="117,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="314.667" Max="319.144" Color="131,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="319.144" Max="323.62" Color="146,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="314.667" Max="319.143" Color="131,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="319.143" Max="323.62" Color="146,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="323.62" Max="328.096" Color="159,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="328.096" Max="332.573" Color="179,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="332.573" Max="337.049" Color="193,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="337.049" Max="341.526" Color="207,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="341.526" Max="346.002" Color="222,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="337.049" Max="341.525" Color="207,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="341.525" Max="346.002" Color="222,255,64" Visible="1"/>
        <ColorBand Flags="7" Min="346.002" Max="350.478" Color="236,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="350.478" Max="354.955" Color="251,255,64" Visible="1"/>
-       <ColorBand Flags="7" Min="354.955" Max="359.431" Color="255,245,64" Visible="1"/>
+       <ColorBand Flags="7" Min="350.478" Max="354.954" Color="251,255,64" Visible="1"/>
+       <ColorBand Flags="7" Min="354.954" Max="359.431" Color="255,245,64" Visible="1"/>
        <ColorBand Flags="7" Min="359.431" Max="363.907" Color="255,232,64" Visible="1"/>
        <ColorBand Flags="7" Min="363.907" Max="368.384" Color="255,213,64" Visible="1"/>
        <ColorBand Flags="7" Min="368.384" Max="372.86" Color="255,198,64" Visible="1"/>
-       <ColorBand Flags="7" Min="372.86" Max="377.337" Color="255,184,64" Visible="1"/>
-       <ColorBand Flags="7" Min="377.337" Max="381.813" Color="255,169,64" Visible="1"/>
+       <ColorBand Flags="7" Min="372.86" Max="377.336" Color="255,184,64" Visible="1"/>
+       <ColorBand Flags="7" Min="377.336" Max="381.813" Color="255,169,64" Visible="1"/>
        <ColorBand Flags="7" Min="381.813" Max="386.289" Color="255,155,64" Visible="1"/>
-       <ColorBand Flags="7" Min="386.289" Max="390.766" Color="255,140,64" Visible="1"/>
-       <ColorBand Flags="7" Min="390.766" Max="395.242" Color="255,126,64" Visible="1"/>
-       <ColorBand Flags="7" Min="395.242" Max="399.719" Color="255,107,64" Visible="1"/>
-       <ColorBand Flags="7" Min="399.719" Max="404.195" Color="255,92,64" Visible="1"/>
+       <ColorBand Flags="7" Min="386.289" Max="390.765" Color="255,140,64" Visible="1"/>
+       <ColorBand Flags="7" Min="390.765" Max="395.242" Color="255,126,64" Visible="1"/>
+       <ColorBand Flags="7" Min="395.242" Max="399.718" Color="255,107,64" Visible="1"/>
+       <ColorBand Flags="7" Min="399.718" Max="404.195" Color="255,92,64" Visible="1"/>
        <ColorBand Flags="15" Min="404.195" Max="408.671" Color="255,79,64" Visible="1"/>
        <ColorBand Flags="1" Min="408.671" Max="408.671" Color="255,64,64" Visible="1"/>
       </EvenWidthBandAxis>
@@ -338,7 +338,7 @@
     <MoTeC.Histogram Version="100" Name="Histogram (3)" PosPC="694,500,1000,1000" ShowCaption="0" AutoCaption="0" LinkZoom="1" ModeId="0" ShowDataLegend="1" ShowColorLegend="1" TelemetryZoom="0" ActiveTrace="0" TileMode="1" TileActiveChan="1" TileAutoCols="1" TileCols="1" SecondChannel="" XScaleMode="0" XSecondScaleMode="0" YUnitMode="1" YScaleMode="1" YScale="10" YAllowOverrides="0" YExcludeUntrusted="1" Style="1" BinLabelStep="-1" UseColors="0" InvertColors="0" StackLines="0" ShowColorBinSamples="1">
      <HistoTrace Id="Brake Temp RR" Visible="1"/>
      <HistoMainBins>
-      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="187.285" DataMax="414.707" BandWidth="4.54845" BandCount="50">
+      <EvenWidthBandAxis PaletteMode="1" GradientMode="1" BandChanColor="0,0,0" AxisChanColor="0,0,0" Color1="64,64,255" Color2="255,64,64" ReversGradient="0" CentredBands="0" GreaterMaxBand="1" LessMinBand="1" Continuous="0" BandMode="1" DataMin="187.285" DataMax="414.707" BandWidth="4.54844" BandCount="50">
        <ColorBand Flags="2" Min="187.285" Max="187.285" Color="64,64,255" Visible="1"/>
        <ColorBand Flags="7" Min="187.285" Max="191.833" Color="64,79,255" Visible="1"/>
        <ColorBand Flags="7" Min="191.833" Max="196.382" Color="64,92,255" Visible="1"/>
@@ -347,8 +347,8 @@
        <ColorBand Flags="7" Min="205.479" Max="210.027" Color="64,140,255" Visible="1"/>
        <ColorBand Flags="7" Min="210.027" Max="214.576" Color="64,155,255" Visible="1"/>
        <ColorBand Flags="7" Min="214.576" Max="219.124" Color="64,169,255" Visible="1"/>
-       <ColorBand Flags="7" Min="219.124" Max="223.672" Color="64,184,255" Visible="1"/>
-       <ColorBand Flags="7" Min="223.672" Max="228.221" Color="64,198,255" Visible="1"/>
+       <ColorBand Flags="7" Min="219.124" Max="223.673" Color="64,184,255" Visible="1"/>
+       <ColorBand Flags="7" Min="223.673" Max="228.221" Color="64,198,255" Visible="1"/>
        <ColorBand Flags="7" Min="228.221" Max="232.769" Color="64,213,255" Visible="1"/>
        <ColorBand Flags="7" Min="232.769" Max="237.318" Color="64,232,255" Visible="1"/>
        <ColorBand Flags="7" Min="237.318" Max="241.866" Color="64,245,255" Visible="1"/>
@@ -381,8 +381,8 @@
        <ColorBand Flags="7" Min="360.126" Max="364.674" Color="255,245,64" Visible="1"/>
        <ColorBand Flags="7" Min="364.674" Max="369.223" Color="255,232,64" Visible="1"/>
        <ColorBand Flags="7" Min="369.223" Max="373.771" Color="255,213,64" Visible="1"/>
-       <ColorBand Flags="7" Min="373.771" Max="378.32" Color="255,198,64" Visible="1"/>
-       <ColorBand Flags="7" Min="378.32" Max="382.868" Color="255,184,64" Visible="1"/>
+       <ColorBand Flags="7" Min="373.771" Max="378.319" Color="255,198,64" Visible="1"/>
+       <ColorBand Flags="7" Min="378.319" Max="382.868" Color="255,184,64" Visible="1"/>
        <ColorBand Flags="7" Min="382.868" Max="387.416" Color="255,169,64" Visible="1"/>
        <ColorBand Flags="7" Min="387.416" Max="391.965" Color="255,155,64" Visible="1"/>
        <ColorBand Flags="7" Min="391.965" Max="396.513" Color="255,140,64" Visible="1"/>
